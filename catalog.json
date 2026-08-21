@@ -1,0 +1,15 @@
+{
+  "catalogVersion": 1,
+  "apps": [
+    {"name":"Morphe Manager","repository":"MorpheApp/morphe-manager","category":"Утилиты","description":"Менеджер Morphe"},
+    {"name":"Morphe MicroG-RE","repository":"MorpheApp/MicroG-RE","category":"Системные","description":"GmsCore-форк для Morphe"},
+    {"name":"NewPipe","repository":"TeamNewPipe/NewPipe","category":"Приложения","description":"Открытый клиент YouTube"},
+    {"name":"Termux","repository":"termux/termux-app","category":"Утилиты","description":"Терминал и Linux-среда для Android"},
+    {"name":"Fossify Gallery","repository":"FossifyOrg/Gallery","category":"Приложения","description":"Галерея без лишнего"},
+    {"name":"Fossify File Manager","repository":"FossifyOrg/File-Manager","category":"Утилиты","description":"Файловый менеджер"},
+    {"name":"Fossify Music Player","repository":"FossifyOrg/Music-Player","category":"Приложения","description":"Музыкальный проигрыватель"},
+    {"name":"Fossify Launcher","repository":"FossifyOrg/Launcher","category":"Системные","description":"Простой лаунчер Android"},
+    {"name":"Fossify Notes","repository":"FossifyOrg/Notes","category":"Утилиты","description":"Заметки"},
+    {"name":"LibreTube","repository":"Libre-tube/LibreTube","category":"Приложения","description":"Альтернативный клиент YouTube"}
+  ]
+}
