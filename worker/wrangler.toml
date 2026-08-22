@@ -1,0 +1,16 @@
+name = "new-kdroid-admin"
+main = "src/index.js"
+compatibility_date = "2026-08-22"
+
+[vars]
+CATALOG_OWNER = "konyakpivo-wq"
+CATALOG_REPO = "new_kdord"
+CATALOG_BRANCH = "main"
+SITE_URL = "https://konyakpivo-wq.github.io/new_kdord"
+ADMIN_GITHUB_LOGIN = "konyakpivo-wq"
+
+# Secrets must NOT be committed here.
+# Set them with:
+# wrangler secret put GITHUB_CLIENT_ID
+# wrangler secret put GITHUB_CLIENT_SECRET
+# wrangler secret put SESSION_SECRET
