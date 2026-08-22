@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Админ — New KDroid</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html">NEW KDROID</a><nav><a href="index.html">Главная</a><a href="repos.html">Репозитории</a><a class="active" href="admin.html">Админ</a></nav></header>
+<main class="page narrow"><section class="admin-card"><div class="badge">ADMIN</div><h1>Административный режим</h1><p>Введите код администратора для доступа.</p><form id="loginForm"><input id="adminCode" type="password" autocomplete="off" placeholder="Код администратора" required><button class="button primary" type="submit">Войти</button><div id="loginMessage" class="message"></div></form></section></main>
+<footer>New KDroid</footer>
+<script>
+document.getElementById('loginForm').addEventListener('submit',function(e){e.preventDefault();var code=document.getElementById('adminCode').value;var msg=document.getElementById('loginMessage');if(code==='iixc_hgxd_kyft'){sessionStorage.setItem('nka_admin','1');window.location.href='admin-panel.html';}else{msg.textContent='Неверный код администратора';msg.className='message error';}});
+</script>
+</body>
+</html>
