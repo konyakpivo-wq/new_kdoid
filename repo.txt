@@ -1,0 +1,10 @@
+https://github.com/MorpheApp/morphe-manager
+https://github.com/MorpheApp/MicroG-RE
+https://github.com/TeamNewPipe/NewPipe
+https://github.com/termux/termux-app
+https://github.com/FossifyOrg/Gallery
+https://github.com/FossifyOrg/File-Manager
+https://github.com/FossifyOrg/Music-Player
+https://github.com/FossifyOrg/Launcher
+https://github.com/FossifyOrg/Notes
+https://github.com/Libre-tube/LibreTube
