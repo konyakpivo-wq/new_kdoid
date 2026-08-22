@@ -9,8 +9,11 @@ CATALOG_BRANCH = "main"
 SITE_URL = "https://konyakpivo-wq.github.io/new_kdord"
 ADMIN_GITHUB_LOGIN = "konyakpivo-wq"
 
+[secrets]
+required = ["GITHUB_CLIENT_ID", "GITHUB_CLIENT_SECRET", "SESSION_SECRET"]
+
 # Secrets must NOT be committed here.
-# Set them with:
+# Configure them in Cloudflare Worker settings or with Wrangler:
 # wrangler secret put GITHUB_CLIENT_ID
 # wrangler secret put GITHUB_CLIENT_SECRET
 # wrangler secret put SESSION_SECRET
