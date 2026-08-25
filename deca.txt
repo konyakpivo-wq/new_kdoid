@@ -1,10 +1,39 @@
-Morphe Manager|Утилиты|Менеджер Morphe
-Morphe MicroG-RE|Системные|GmsCore-форк для Morphe
-NewPipe|Приложения|Открытый клиент YouTube
-Termux|Утилиты|Терминал и Linux-среда для Android
-Fossify Gallery|Приложения|Галерея без лишнего
-Fossify File Manager|Утилиты|Файловый менеджер
-Fossify Music Player|Приложения|Музыкальный проигрыватель
-Fossify Launcher|Системные|Простой лаунчер Android
-Fossify Notes|Утилиты|Заметки
-LibreTube|Приложения|Альтернативный клиент YouTube
+id: 1
+cid: 3
+d: Менеджер Morphe
+
+id: 2
+cid: 1
+d: GmsCore-форк для Morphe
+
+id: 3
+cid: 2
+d: Открытый клиент YouTube
+
+id: 4
+cid: 3
+d: Терминал и Linux-среда для Android
+
+id: 5
+cid: 2
+d: Галерея без лишнего
+
+id: 6
+cid: 3
+d: Файловый менеджер
+
+id: 7
+cid: 2
+d: Музыкальный проигрыватель
+
+id: 8
+cid: 1
+d: Простой лаунчер Android
+
+id: 9
+cid: 3
+d: Заметки
+
+id: 10
+cid: 2
+d: Альтернативный клиент YouTube
