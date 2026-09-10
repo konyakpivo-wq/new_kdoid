@@ -1,3 +1,0 @@
-id: 4
-cid: 3
-d: Терминал и Linux-среда для Android

@@ -1,3 +1,0 @@
-id: 2
-cid: 1
-d: GmsCore-форк для Morphe

@@ -1,1 +1,0 @@
-repo: https://github.com/Libre-tube/LibreTube (id: 10)
