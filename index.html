@@ -13,7 +13,8 @@
     <div class="badge">ANDROID APP STORE</div>
     <h1>New KDroid</h1>
     <p class="lead">Бесплатный каталог приложений для Android, использующий GitHub как источник программ.</p>
-    <div class="actions"><a class="button primary" href="https://github.com/konyakpivo-wq/new_kdoid/releases/latest">Скачать New KDroid</a><a class="button" href="repos.html">Посмотреть репозитории</a></div>
+    <div class="actions"><button class="button primary" type="button" onclick="openTelegramModal()">Скачать New KDroid</button><a class="button" href="repos.html">Посмотреть репозитории</a></div>
+  <div id="telegramModal" class="modal" aria-hidden="true"><div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="telegramTitle"><button class="modal-close" type="button" onclick="closeTelegramModal()" aria-label="Закрыть">×</button><h2 id="telegramTitle">Установка New KDroid</h2><p>Чтобы установить программу, перейдите в Telegram-канал.</p><a class="button primary modal-button" href="https://t.me/mrdemomelon" target="_blank" rel="noopener">Перейти</a></div></div>
   </section>
   <section class="info-grid">
     <article><span>01</span><h2>GitHub</h2><p>Приложения берутся из GitHub Releases, без собственного платного сервера.</p></article>
@@ -22,6 +23,7 @@
   </section>
   <section class="about"><h2>О проекте</h2><p>New KDroid — независимый Android-каталог. Он показывает приложения из выбранных GitHub-репозиториев, получает доступные релизы и позволяет скачать APK напрямую вместо перехода на страницу GitHub.</p><p class="contact">Предложения по добавлению репозиториев: <a href="mailto:demoda228@gmail.com">demoda228@gmail.com</a></p></section>
 </main>
+<script>function openTelegramModal(){const m=document.getElementById("telegramModal");m.classList.add("show");m.setAttribute("aria-hidden","false")}function closeTelegramModal(){const m=document.getElementById("telegramModal");m.classList.remove("show");m.setAttribute("aria-hidden","true")}document.addEventListener("keydown",e=>{if(e.key==="Escape")closeTelegramModal()});document.getElementById("telegramModal").addEventListener("click",e=>{if(e.target.id==="telegramModal")closeTelegramModal()});</script>
 <footer>New KDroid · Бесплатный проект</footer>
 </body>
 </html>
